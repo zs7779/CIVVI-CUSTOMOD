@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d8787795-9743-40d0-9b51-1994684fd2a5" version="1">
+  <Properties>
+    <Name>Fun mode - Wonders not useless</Name>
+    <Description>Fun mode - Wonders not useless. Wonders I mean Great Wall.</Description>
+    <Teaser>Fun mode - Wonders not useless</Teaser>
+    <Authors>Sean Joe</Authors>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File priority="100">Fun_Gameplay.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Fun_Gameplay.sql</File>
+    <File>Fun_Gameplay.xml</File>
+  </Files>
+</Mod>

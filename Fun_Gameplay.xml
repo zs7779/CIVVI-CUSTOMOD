@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_IMPROVEMENT_GREAT_WALL</TraitType>
+			<ModifierId>GREAT_WALL_BOMB</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREAT_WALL_BOMB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREAT_WALL_BOMB</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_GREAT_WALL</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="TRAIT_ADJUST_BUILDER_CHARGES" Name="Amount"/>
+			<Set Value="6"/>
+		</Update>
+	</ModifierArguments>
+</GameInfo>
