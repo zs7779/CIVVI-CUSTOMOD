@@ -1,5 +1,579 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_MONUMENT"/>
+			<Set Cost="20"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_BARRACKS"/>
+			<Set Cost="30"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_GRANARY"/>
+			<Set Cost="22"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_LIBRARY"/>
+			<Set Cost="30"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_SHRINE"/>
+			<Set Cost="23"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_WALLS"/>
+			<Set Cost="26"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_WATER_MILL"/>
+			<Set Cost="26"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_ARENA"/>
+			<Set Cost="50"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_LIGHTHOUSE"/>
+			<Set Cost="40"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_MARKET"/>
+			<Set Cost="40"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_STABLE"/>
+			<Set Cost="40"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_TEMPLE"/>
+			<Set Cost="40"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_STAVE_CHURCH"/>
+			<Set Cost="40"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_AMPHITHEATER"/>
+			<Set Cost="50"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_CASTLE"/>
+			<Set Cost="75"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_UNIVERSITY"/>
+			<Set Cost="83"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_MADRASA"/>
+			<Set Cost="83"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_WORKSHOP"/>
+			<Set Cost="65"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_ARMORY"/>
+			<Set Cost="65"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_SHIPYARD"/>
+			<Set Cost="96"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_BANK"/>
+			<Set Cost="96"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_STAR_FORT"/>
+			<Set Cost="101"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_MUSEUM_ART"/>
+			<Set Cost="96"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_MUSEUM_ARTIFACT"/>
+			<Set Cost="96"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_FACTORY"/>
+			<Set Cost="130"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_ELECTRONICS_FACTORY"/>
+			<Set Cost="130"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_STOCK_EXCHANGE"/>
+			<Set Cost="130"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_MILITARY_ACADEMY"/>
+			<Set Cost="130"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_SEWER"/>
+			<Set Cost="66"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_ZOO"/>
+			<Set Cost="148"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_HANGAR"/>
+			<Set Cost="155"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_SEAPORT"/>
+			<Set Cost="160"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_POWER_PLANT"/>
+			<Set Cost="160"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_BROADCAST_CENTER"/>
+			<Set Cost="160"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_FILM_STUDIO"/>
+			<Set Cost="160"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_RESEARCH_LAB"/>
+			<Set Cost="160"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_AIRPORT"/>
+			<Set Cost="200"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_STADIUM"/>
+			<Set Cost="220"/>
+		</Update>
+	</Buildings>
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_HOLY_SITE"/>
+			<Set Cost="18" CostProgressionParam1="10"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_CAMPUS"/>
+			<Set Cost="18" CostProgressionParam1="10"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ENCAMPMENT"/>
+			<Set Cost="18" CostProgressionParam1="10"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HARBOR"/>
+			<Set Cost="18" CostProgressionParam1="10"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_AERODROME"/>
+			<Set Cost="18" CostProgressionParam1="10"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_COMMERCIAL_HUB"/>
+			<Set Cost="18" CostProgressionParam1="10"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+			<Set Cost="18" CostProgressionParam1="10"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_THEATER"/>
+			<Set Cost="18" CostProgressionParam1="10"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+			<Set Cost="18" CostProgressionParam1="10"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_NEIGHBORHOOD"/>
+			<Set Cost="18"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_AQUEDUCT"/>
+			<Set Cost="12"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ACROPOLIS"/>
+			<Set Cost="9" CostProgressionParam1="10"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_BATH"/>
+			<Set Cost="6"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HANSA"/>
+			<Set Cost="9" CostProgressionParam1="10"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_LAVRA"/>
+			<Set Cost="9" CostProgressionParam1="10"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_MBANZA"/>
+			<Set Cost="9"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_STREET_CARNIVAL"/>
+			<Set Cost="9" CostProgressionParam1="10"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD"/>
+			<Set Cost="9" CostProgressionParam1="10"/>
+		</Update>
+	</Districts>
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_SETTLER"/>
+			<Set Cost="40" CostProgressionParam1="15"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BUILDER"/>
+			<Set Cost="25" CostProgressionParam1="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_TRADER"/>
+			<Set Cost="20"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MISSIONARY"/>
+			<Set Cost="75" CostProgressionParam1="6"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_APOSTLE"/>
+			<Set Cost="200" CostProgressionParam1="15"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_INQUISITOR"/>
+			<Set Cost="75" CostProgressionParam1="6"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_GURU"/>
+			<Set Cost="120" CostProgressionParam1="12"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_WARRIOR_MONK"/>
+			<Set Cost="100"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARCHAEOLOGIST"/>
+			<Set Cost="300"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SPY"/>
+			<Set Cost="200"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_NATURALIST"/>
+			<Set Cost="600" CostProgressionParam1="100"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SCOUT"/>
+			<Set Cost="15"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_WARRIOR"/>
+			<Set Cost="20"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SLINGER"/>
+			<Set Cost="17"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BARBARIAN_HORSEMAN"/>
+			<Set Cost="35"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BARBARIAN_HORSE_ARCHER"/>
+			<Set Cost="30"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SUMERIAN_WAR_CART"/>
+			<Set Cost="27"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BARBARIAN_RAIDER"/>
+			<Set Cost="60"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_GALLEY"/>
+			<Set Cost="32"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_NORWEGIAN_LONGSHIP"/>
+			<Set Cost="32"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARCHER"/>
+			<Set Cost="30"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SPEARMAN"/>
+			<Set Cost="32"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_HEAVY_CHARIOT"/>
+			<Set Cost="32"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BATTERING_RAM"/>
+			<Set Cost="32"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_GREEK_HOPLITE"/>
+			<Set Cost="32"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SWORDSMAN"/>
+			<Set Cost="45"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_HORSEMAN"/>
+			<Set Cost="40"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SCYTHIAN_HORSE_ARCHER"/>
+			<Set Cost="50"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ROMAN_LEGION"/>
+			<Set Cost="55"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_KONGO_SHIELD_BEARER"/>
+			<Set Cost="55"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CATAPULT"/>
+			<Set Cost="60"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SIEGE_TOWER"/>
+			<Set Cost="50"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_QUADRIREME"/>
+			<Set Cost="60"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_EGYPTIAN_CHARIOT_ARCHER"/>
+			<Set Cost="60"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JAPANESE_SAMURAI"/>
+			<Set Cost="90"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_NORWEGIAN_BERSERKER"/>
+			<Set Cost="90"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_KNIGHT"/>
+			<Set Cost="90"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_INDIAN_VARU"/>
+			<Set Cost="60"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARABIAN_MAMLUK"/>
+			<Set Cost="90"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CROSSBOWMAN"/>
+			<Set Cost="90"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CHINESE_CROUCHING_TIGER"/>
+			<Set Cost="80"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MILITARY_ENGINEER"/>
+			<Set Cost="85"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_PIKEMAN"/>
+			<Set Cost="100"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MUSKETMAN"/>
+			<Set Cost="120"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SPANISH_CONQUISTADOR"/>
+			<Set Cost="125"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CARAVEL"/>
+			<Set Cost="120"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BOMBARD"/>
+			<Set Cost="140"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FRIGATE"/>
+			<Set Cost="140"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_PRIVATEER"/>
+			<Set Cost="140"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ENGLISH_SEADOG"/>
+			<Set Cost="140"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FIELD_CANNON"/>
+			<Set Cost="165"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CAVALRY"/>
+			<Set Cost="165"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_RUSSIAN_COSSACK"/>
+			<Set Cost="170"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ENGLISH_REDCOAT"/>
+			<Set Cost="170"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FRENCH_GARDE_IMPERIALE"/>
+			<Set Cost="170"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MEDIC"/>
+			<Set Cost="185"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_IRONCLAD"/>
+			<Set Cost="190"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_ROUGH_RIDER"/>
+			<Set Cost="192"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_RANGER"/>
+			<Set Cost="190"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_OBSERVATION_BALLOON"/>
+			<Set Cost="120"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BIPLANE"/>
+			<Set Cost="215"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_INFANTRY"/>
+			<Set Cost="215"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARTILLERY"/>
+			<Set Cost="215"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BATTLESHIP"/>
+			<Set Cost="215"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BRAZILIAN_MINAS_GERAES"/>
+			<Set Cost="215"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SUBMARINE"/>
+			<Set Cost="240"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_GERMAN_UBOAT"/>
+			<Set Cost="215"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AT_CREW"/>
+			<Set Cost="200"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_TANK"/>
+			<Set Cost="240"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FIGHTER"/>
+			<Set Cost="260"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_P51"/>
+			<Set Cost="260"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BOMBER"/>
+			<Set Cost="260"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ANTIAIR_GUN"/>
+			<Set Cost="227"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MACHINE_GUN"/>
+			<Set Cost="270"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AIRCRAFT_CARRIER"/>
+			<Set Cost="270"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_DESTROYER"/>
+			<Set Cost="270"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_HELICOPTER"/>
+			<Set Cost="300"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_NUCLEAR_SUBMARINE"/>
+			<Set Cost="340"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MECHANIZED_INFANTRY"/>
+			<Set Cost="325"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ROCKET_ARTILLERY"/>
+			<Set Cost="340"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MOBILE_SAM"/>
+			<Set Cost="295"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JET_FIGHTER"/>
+			<Set Cost="325"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JET_BOMBER"/>
+			<Set Cost="350"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MISSILE_CRUISER"/>
+			<Set Cost="340"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MODERN_AT"/>
+			<Set Cost="290"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MODERN_ARMOR"/>
+			<Set Cost="340"/>
+		</Update>
+	</Units>
 	<TraitModifiers>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_IMPROVEMENT_GREAT_WALL</TraitType>
